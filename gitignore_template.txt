@@ -1,0 +1,129 @@
+# Git Ignore File for Tableau Projects
+
+## Tableau Temporary Files
+*.twb~
+*.twbx~
+*.twbl
+*.twbtemplate
+*.tde
+*.hyper
+*.tds
+*.tdesktop
+*.packaged
+.tabversion*
+.tabindex*
+.tabkind*
+
+## Tableau Cache & Temp Directories
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+tmp/
+temp/
+cache/
+_temp/
+
+## Tableau Workgroup Files
+AppData/
+C:\Users\*\Documents\My Tableau Repository\
+.tabVersion*
+.private_folder
+
+## OS-Specific Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.folder
+
+## IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.atom/
+.project
+.pydevproject
+.settings/
+
+## Python Generated Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.env
+venv/
+ENV/
+
+## Data Files (Large)
+*.csv.gz
+*.zip
+data/raw_data_backup.csv
+*.tar.gz
+*.rar
+
+## Secrets & Credentials
+.env
+.env.local
+credentials.json
+secrets.yaml
+*.key
+*.pem
+*.ppk
+config.local.xml
+
+## Logs
+*.log
+logs/
+
+## Build Files
+dist/
+build/
+*.pot
+
+## Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+
+## Backup Files
+*.bak
+*.backup
+*.old
+*~
+
+## Miscellaneous
+.ipynb_checkpoints
+.pytest_cache/
+htmlcov/
+.coverage
+.hypothesis/
+*.md5
+*.sha256
+
+## Project-Specific
+screenshots/drafts/
+analysis/temp_calculations.xlsx
+docs/internal_only/
